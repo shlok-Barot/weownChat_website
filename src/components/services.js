@@ -101,7 +101,7 @@ class OurService extends React.Component {
                         <p>
                           Once they've collected enough points, users can redeem
                           their WEOWNS for products or services that are offered
-                          by brands whos support WeownomyChat.
+                          by brands who support WeownomyChat.
                         </p>
                       </div>
                     </div>
