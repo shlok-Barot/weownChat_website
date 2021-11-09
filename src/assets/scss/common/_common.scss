@@ -21,7 +21,7 @@
   .mvp_btn {
     background-color: #81297d !important;
     border-color: #81297d !important;
-    width: 370px;
+    width: 380px;
     height: 65px;
     text-align: left;
     font-weight: 600;
@@ -47,7 +47,7 @@
     text-align: center;
   }
   .homeMo_img {
-    height: 525px;
+    height: auto;
     width: 350px;
   }
 
@@ -111,7 +111,7 @@
     p {
       margin-top: 30px;
       font-weight: 500;
-      font-size: 30px;
+      font-size: 27px;
       color: #868686;
     }
   }
@@ -232,7 +232,7 @@
     p {
       margin-top: 30px;
       font-weight: 500;
-      font-size: 30px;
+      font-size: 27px;
       color: #868686;
     }
   }
@@ -495,6 +495,9 @@
         font-weight: 600;
         margin-top: 0;
         margin-bottom: 10px;
+        a {
+          color: #773c76;
+        }
       }
     }
   }
