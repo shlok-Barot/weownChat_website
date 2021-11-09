@@ -1,0 +1,17 @@
+stages:
+  - test
+VisualQA:
+  before_script:
+    - "cp .sketch_records.json $UIE_VQA/packages/mobile/vqa-rn-mobile/sketch_records.json"
+    - "cp -R ReactNative/LandingPageweownomy $UIE_VQA/packages/blocks"
+
+
+  script:
+    - "cd $UIE_VQA/packages/mobile/vqa-rn-mobile && node mobileVQANodeJS.js --trackerIDs ['web':1559]"
+  only:
+    changes:
+    - ReactNative/**/*
+    - .sketch_records.json
+  stage: test
+  tags:
+    - VisualQA

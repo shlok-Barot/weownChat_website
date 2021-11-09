@@ -1,0 +1,16 @@
+{
+  "sketch-records": [
+    {
+      "env": "prd",
+      "project-name": "WeownomyWebsite",
+      "sketch-request-id": 18593,
+      "feature-id": 1583,
+      "story-id": 286658,
+      "build-card-id": "94403",
+      "sketch-url": "https://builderbuckets.blob.core.windows.net/trackerimages/uploads/document/203182/Weownomy_Website__1_.sketch",
+      "gen-code-dir": "ReactNative/LandingPageweownomy",
+      "design-url": "https://builderbuckets.blob.core.windows.net/trackerimages/uploads/document/203180/Landing_Page_weownomy.png",
+      "artboard-type": "custom"
+    }
+  ]
+}
